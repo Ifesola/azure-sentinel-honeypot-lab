@@ -1,0 +1,3 @@
+SecurityEvent
+| where EventId == 4625
+
