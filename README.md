@@ -1,6 +1,6 @@
 #  Azure Sentinel Honeypot Lab
 
-This project is a step-by-step cybersecurity lab simulating real-world detection and monitoring using **Azure Sentinel**, 
+This project is a cybersecurity lab simulating real-world detection and monitoring using **Azure Sentinel**, 
 **Windows VM Honeypot**, **Log Analytics**, **KQL**, and **IP Geolocation Enrichment**.
 ---
 
