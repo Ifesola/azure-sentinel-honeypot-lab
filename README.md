@@ -56,26 +56,29 @@ This project is a step-by-step cybersecurity lab simulating real-world detection
 - Configure the **AMA Security Events connector**.
 - Use **KQL** to query failed logins:
 
-```kql
+
+
 SecurityEvent
+
 | where EventID == 4625
 
 
-## Lessons Learned
+---
+
+ Lessons Learned
 How to configure an Azure VM as a honeypot.
-
 Importance of Event ID 4625 in brute-force detection.
-
 Forwarding logs using AMA to Log Analytics & Sentinel.
-
 Writing KQL queries to investigate and enrich security events.
-
 Creating visual security dashboards using Sentinel Workbooks.
 
-##  Author
+---
+
+###  Author
 Ifesola Fadare
 Aspiring SOC Analyst | Cloud Security | Cybersecurity Enthusiast
 
+---
 
 
 ##  Credits
